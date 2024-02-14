@@ -5,7 +5,7 @@
 
 ### What does your delivery app look like?
 
-<table style="border:0px solid white;">
+<table>
     <tr style="border: 0px;">
     <td align="center" style="border:0px;">
       <img src="https://www.cazuapp.dev/assets/images/all/home.png" width="300" alt="Home">
@@ -14,7 +14,7 @@
       <img src="https://www.cazuapp.dev/assets/images/all/cereal_3.png" width="300" alt="Cereal">
     </td>
   </tr>
-  <tr style="border:0px; >
+  <tr style="border:0px;">
     <td align="center" style="border:0px" >
       <img src="https://www.cazuapp.dev/assets/images/all/user_login_ok.png" width="300" alt="User Login OK">
     </td>
