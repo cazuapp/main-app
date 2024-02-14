@@ -5,20 +5,20 @@
 
 ### What does your delivery app look like?
 
-<table>
-  <tr>
-    <td align="center">
+<table style="border:0px solid white; width:100%;">
+    <tr style="border: 0px;">
+    <td align="center" style="border:0px;">
       <img src="https://www.cazuapp.dev/assets/images/all/home.png" width="300" alt="Home">
     </td>
-    <td align="center">
+    <td align="center" style="border:0px;">
       <img src="https://www.cazuapp.dev/assets/images/all/cereal_3.png" width="300" alt="Cereal">
     </td>
   </tr>
-  <tr>
-    <td align="center">
+  <tr style="border:0px; >
+    <td align="center" style="border:0px" >
       <img src="https://www.cazuapp.dev/assets/images/all/user_login_ok.png" width="300" alt="User Login OK">
     </td>
-    <td align="center">
+    <td align="center" style="border:0px;">
       <img src="https://www.cazuapp.dev/assets/images/all/account.png" width="300" alt="Account">
     </td>
   </tr>

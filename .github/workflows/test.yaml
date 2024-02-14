@@ -2,20 +2,30 @@ name: main-app
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - unstable
   pull_request:
-    branches: [ main ]
-    
+    branches:
+      - unstable
+
 jobs:
-  build:
+  build-and-format:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-      - uses: dart-lang/setup-dart@v1
+    - name: Checkout code
+      uses: actions/checkout@v3
 
-      - name: Install Dependencies
-        run: dart pub get
+    - name: Set up Dart
+      uses: dart-lang/setup-dart@v1
+      with:
+        dart-version: 'stable' # Use 'stable' for the latest stable version, or specify a version like '2.14.0'
 
-      - name: Format
-        run: dart format --set-exit-if-changed .
+    - name: Install dependencies
+      run: dart pub get
+
+    - name: Verify formatting
+      run: dart format --set-exit-if-changed .
+
+    - name: Run tests # Optional step if you have tests
+      run: dart test
