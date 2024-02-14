@@ -16,10 +16,10 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Set up Dart
-      uses: dart-lang/setup-dart@v1
+    - name: Setup Flutter
+      uses: subosito/flutter-action@v2
       with:
-        dart-version: 'stable' # Use 'stable' for the latest stable version, or specify a version like '2.14.0'
+        flutter-version: 'stable' 
 
     - name: Install dependencies
       run: flutter pub get
@@ -27,5 +27,5 @@ jobs:
     - name: Verify formatting
       run: flutter format --set-exit-if-changed .
 
-    - name: Run tests # Optional step if you have tests
+    - name: Run tests 
       run: flutter test
