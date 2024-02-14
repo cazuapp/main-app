@@ -41,8 +41,8 @@ For in-depth details, visit our [Documentation Site](https://docs.cazuapp.dev/).
 
 Prepare your environment to contribute to the Main App:
 
-- **CazuApp API server** - Backend support for the app.
-- **Flutter or React Native** - For mobile app development.
+- **CazuApp API server** - Backend support for the Driver App.
+- **Flutter** - The UI toolkit for crafting natively compiled applications.
 
 Begin by following our [Installation Guide](https://docs.cazuapp.dev/api/core_apps/main/install).
 
