@@ -1,0 +1,30 @@
+name: main-app
+
+on:
+  push:
+    paths:
+      - "/**"
+      - ".github/workflows/test.yaml"
+
+  pull_request:
+    paths:
+      - "/**"
+      - ".github/workflows/test.yaml"
+      
+jobs:
+  build:
+    defaults:
+      run:
+        working-directory: /
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: dart-lang/setup-dart@v1
+
+      - name: Install Dependencies
+        run: dart pub get
+
+      - name: Format
+        run: dart format --set-exit-if-changed .
