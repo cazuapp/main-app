@@ -5,10 +5,24 @@
 
 ### What does your delivery app look like?
 
-| ![](https://www.cazuapp.dev/assets/images/all/home.png)  | ![](https://www.cazuapp.dev/assets/images/all/cereal_3.png)    
-| :---------------------------------: | :---------------------------------: 
-| ![](https://www.cazuapp.dev/assets/images/all/user_login_ok.png)  |
-![](https://www.cazuapp.dev/assets/images/all/account.png) | 
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://www.cazuapp.dev/assets/images/all/home.png" width="300" alt="Home">
+    </td>
+    <td align="center">
+      <img src="https://www.cazuapp.dev/assets/images/all/cereal_3.png" width="300" alt="Cereal">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://www.cazuapp.dev/assets/images/all/user_login_ok.png" width="300" alt="User Login OK">
+    </td>
+    <td align="center">
+      <img src="https://www.cazuapp.dev/assets/images/all/account.png" width="300" alt="Account">
+    </td>
+  </tr>
+</table>
 
 # Introducing CazuApp Main App
 

@@ -1,22 +1,7 @@
 name: main-app
 
-on:
-  push:
-    paths:
-      - "/**"
-      - ".github/workflows/test.yaml"
-
-  pull_request:
-    paths:
-      - "/**"
-      - ".github/workflows/test.yaml"
-      
 jobs:
   build:
-    defaults:
-      run:
-        working-directory: /
-
     runs-on: ubuntu-latest
 
     steps:
