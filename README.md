@@ -5,7 +5,7 @@
 
 ### What does your delivery app look like?
 
-<table>
+<table style="border:0px solid white; width:100%;">
     <tr style="border: 0px;">
     <td align="center" style="border:0px;">
       <img src="https://www.cazuapp.dev/assets/images/all/home.png" width="300" alt="Home">
@@ -14,7 +14,7 @@
       <img src="https://www.cazuapp.dev/assets/images/all/cereal_3.png" width="300" alt="Cereal">
     </td>
   </tr>
-  <tr style="border:0px;">
+  <tr style="border:0px; >
     <td align="center" style="border:0px" >
       <img src="https://www.cazuapp.dev/assets/images/all/user_login_ok.png" width="300" alt="User Login OK">
     </td>
@@ -24,7 +24,7 @@
   </tr>
 </table>
 
-# Introducing CazuApp Main App
+### Introducing CazuApp Main App
 
 **CazuApp Main App** is the centerpiece of our open-source delivery ecosystem, offering customers a seamless way to place and track their orders. Designed with user experience in mind, it streamlines the process of ordering, tracking, and managing deliveries.
 
@@ -37,7 +37,7 @@ Explore our [GitHub repositories](https://github.com/cazuapp) to learn more!
 
 For in-depth details, visit our [Documentation Site](https://docs.cazuapp.dev/).
 
-## Getting Started with the Main App
+### Getting Started with the Main App
 
 Prepare your environment to contribute to the Main App:
 
