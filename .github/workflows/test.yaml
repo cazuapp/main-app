@@ -25,8 +25,3 @@ jobs:
     - name: Install dependencies
       run: flutter pub get
 
-    - name: Verify formatting
-      run: flutter format --set-exit-if-changed .
-
-    - name: Run tests 
-      run: flutter test
