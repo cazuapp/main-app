@@ -3,8 +3,6 @@
 </p>
 
 
-### What does your delivery app look like?
-
 <table style="border:0px solid white;">
     <tr style="border: 0px;">
     <td align="center" style="border:0px;">
